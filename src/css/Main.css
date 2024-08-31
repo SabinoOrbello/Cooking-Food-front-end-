@@ -1,0 +1,66 @@
+/* Main.css */
+
+.main-container {
+  background-color: rgb(15, 134, 134);
+  color: white;
+  padding: 20px !important; /* Spaziatura interna del form */
+  border-radius: 8px !important; /* Arrotonda leggermente gli angoli del form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important; /* Ombra */
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main-subheading {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.btn-main {
+  background-color: rgba(18, 231, 235, 0.399);
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: rgba(24, 159, 161, 0.6);
+}
+
+.icon-container {
+  background-color: rgba(240, 246, 246, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.icon-container h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.icon-container p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.icon-container:hover {
+  background-color: rgba(24, 159, 161, 0.2);
+}
+
+@media (max-width: 768px) {
+  .icon-container {
+    padding: 1rem;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .main-subheading {
+    font-size: 1rem;
+  }
+}

@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("../src/image/—Pngtree—blue\ literary\ fresh\ food_926044.jpg"); /* Percorso relativo all'immagine */
+  background-size: cover; /* Rende l'immagine di sfondo coprire l'intero viewport */
+  background-position: center; /* Centra l'immagine di sfondo */
+  background-repeat: no-repeat; /* Evita che l'immagine di sfondo si ripeta */
+  height: 100vh; /* Assicura che il body copra tutta l'altezza della finestra */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  background-color: white !important; /* Colore di sfondo del form per far risaltare l'ombra */
+  padding: 20px !important; /* Spaziatura interna del form */
+  border-radius: 8px !important; /* Arrotonda leggermente gli angoli del form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important; /* Ombra */
+  border-color: rgb(15, 134, 134) !important;
+}
+h1 {
+  font-family: "Cormorant SC", sans-serif;
+  color: rgba(0, 0, 0, 0.399) !important;
+  font-size: 44px !important;
+  text-transform: uppercase;
+  line-height: 51px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2,
+h3,
+h5 {
+  font-family: "Cormorant SC", sans-serif;
+  color: black !important;
+  font-size: 30px !important;
+  line-height: 51px;
+  font-style: italic;
+}
+.title {
+  font-family: "Cormorant SC", sans-serif;
+  color: rgba(24, 159, 161, 0.399) !important;
+  font-size: 44px !important;
+  text-transform: uppercase;
+  line-height: 51px;
+}
+.title1 {
+  font-family: "Cormorant SC", sans-serif;
+  color: rgba(24, 159, 161, 0.399) !important;
+  font-size: 24px !important;
+  text-transform: uppercase;
+  line-height: 51px;
+  font-weight: bold;
+}
+.lin {
+  color: rgb(15, 156, 156);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p,
+label {
+  color: black;
+  font-family: "Helvetica", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
-
-.App-link {
-  color: #61dafb;
+.bt {
+  background-color: rgb(15, 134, 134) !important;
+  border-color: rgb(15, 134, 134) !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bt:hover {
+  background-color: rgb(49, 158, 158) !important;
+  border-color: rgb(49, 158, 158) !important;
 }
